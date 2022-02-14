@@ -249,9 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loot:
-  - {fileID: 5152750489996400158, guid: 11e65e01147571542a124425bcf7a0ba, type: 3}
   - {fileID: 5152750489996400158, guid: 0cdc9d6ed03a27340995015b595fd70e, type: 3}
-  - {fileID: 1366591216880245342, guid: 8221156f942ed344e9377f47d82731dd, type: 3}
   lootChance: 0
 --- !u!114 &488094413263146201
 MonoBehaviour:
