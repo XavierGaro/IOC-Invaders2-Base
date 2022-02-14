@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/IOC Invaders/Scenes/MainMenu.unity
+    guid: 0c3d66bdffe6e9a478d31cbd025b56c4
+  - enabled: 1
+    path: Assets/IOC Invaders/Scenes/Space.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/IOC Invaders/Scenes/GameOver.unity
+    guid: 230dcb259743dab4182d40bb47f28a9d
+  - enabled: 1
+    path: Assets/IOC Invaders/Scenes/Mars.unity
+    guid: 5daa96161b708514abc9ad3800f9ebf8
+  - enabled: 1
+    path: Assets/IOC Invaders/Scenes/Venus.unity
+    guid: 742dc1df62e5e9348b277d09ed963058
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9155fadf14cd723489f794b782a11c0b, type: 2}
