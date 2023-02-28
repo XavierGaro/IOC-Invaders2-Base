@@ -8,9 +8,8 @@ public class PlayerDamagedEffects : MonoBehaviour
 
     private void Start()
     {
-        _cameraShake = Camera.main.GetComponent<CameraShake>();
-        GetComponent<Health>().OnDeath += OnDeath;
-        GetComponent<Health>().OnHealthChanged += OnHealthChanged;
+        // TODO: exercicici 4a (obtenir la referència al component CameraShake i afegir subscripcions)
+        
     }
 
 
@@ -18,7 +17,8 @@ public class PlayerDamagedEffects : MonoBehaviour
     {
         if (amount < 0 && _cameraShake != null)
         {
-            _cameraShake.Play();    
+            // TODO: Exercici 4a (tremolor de la càmera)
+
         }
     }
 
@@ -29,7 +29,7 @@ public class PlayerDamagedEffects : MonoBehaviour
 
     private void OnDestroy()
     {
-        GetComponent<Health>().OnDeath -= OnDeath;
-        GetComponent<Health>().OnHealthChanged -= OnHealthChanged;
+        // TODO: Exercici 4a (eliminar subscripcions)
+        
     }
 }

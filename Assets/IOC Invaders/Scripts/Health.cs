@@ -71,8 +71,8 @@ public class Health : MonoBehaviour
     {
         if (effect != null)
         {
-            ParticleSystem instance = Instantiate(effect, transform.position, Quaternion.identity);
-            Destroy(instance.gameObject, instance.main.duration + instance.main.startLifetime.constantMax);
+            // TODO: Exercici 4c
+            
         }
     }
 
